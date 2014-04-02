@@ -3,4 +3,19 @@ cl-earthquake
 
 Notify earthquakes recently happened.
 
-"notify-send" is required.
+* "notify-send" is required.
+* Quicklisp is required.
+* drakma is required(in Quicklisp).
+
+
+Compile:
+
+1. Start your SBCL
+
+2. Load main-xml.lisp
+
+3. Type:
+
+```
+(save-lisp-and-die "cl-earthquake-xml" :executable t :toplevel #'main)
+```
