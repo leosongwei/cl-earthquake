@@ -16,6 +16,6 @@ Compile:
 
 3. Type:
 
-```
+```lisp
 (save-lisp-and-die "cl-earthquake-xml" :executable t :toplevel #'main)
 ```
