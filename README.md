@@ -3,10 +3,14 @@ cl-earthquake
 
 Notify earthquakes recently happened.
 
-* "notify-send" is required.
-* Quicklisp is required.
-* drakma is required(in Quicklisp).
+**Attention: No further functions are planed! I'll never update these code unless it crashes on my computer(If it crashes on my computer and it did'nt updated, you may think i'm not taking it's fun anymore).**
 
+Requirements:
+
+* notify-send
+* Quicklisp
+* drakma(in Quicklisp)
+* s-xml(in Quicklisp)
 
 Compile:
 
